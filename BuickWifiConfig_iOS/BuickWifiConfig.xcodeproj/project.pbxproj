@@ -1,0 +1,408 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5025A6B91EB078990099685A /* PeripheralInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 5025A6B81EB078990099685A /* PeripheralInfo.m */; };
+		50DC9AAF1EAF28C00099EAD8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 50DC9AAE1EAF28C00099EAD8 /* main.m */; };
+		50DC9AB21EAF28C00099EAD8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 50DC9AB11EAF28C00099EAD8 /* AppDelegate.m */; };
+		50DC9AB51EAF28C00099EAD8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50DC9AB41EAF28C00099EAD8 /* ViewController.m */; };
+		50DC9ABA1EAF28C00099EAD8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50DC9AB91EAF28C00099EAD8 /* Assets.xcassets */; };
+		50DC9ABD1EAF28C00099EAD8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50DC9ABB1EAF28C00099EAD8 /* LaunchScreen.storyboard */; };
+		50DC9AC61EAF2EE00099EAD8 /* UIView+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 50DC9AC51EAF2EE00099EAD8 /* UIView+YYAdd.m */; };
+		50DC9ACB1EAF3A350099EAD8 /* Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 50DC9ACA1EAF3A350099EAD8 /* Helper.m */; };
+		50DC9ADF1EAF3E610099EAD8 /* BabyBluetooth.m in Sources */ = {isa = PBXBuildFile; fileRef = 50DC9ACE1EAF3E610099EAD8 /* BabyBluetooth.m */; };
+		50DC9AE01EAF3E610099EAD8 /* BabyCallback.m in Sources */ = {isa = PBXBuildFile; fileRef = 50DC9AD01EAF3E610099EAD8 /* BabyCallback.m */; };
+		50DC9AE11EAF3E610099EAD8 /* BabyCentralManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 50DC9AD21EAF3E610099EAD8 /* BabyCentralManager.m */; };
+		50DC9AE21EAF3E610099EAD8 /* BabyDefine.m in Sources */ = {isa = PBXBuildFile; fileRef = 50DC9AD41EAF3E610099EAD8 /* BabyDefine.m */; };
+		50DC9AE31EAF3E610099EAD8 /* BabyOptions.m in Sources */ = {isa = PBXBuildFile; fileRef = 50DC9AD61EAF3E610099EAD8 /* BabyOptions.m */; };
+		50DC9AE41EAF3E610099EAD8 /* BabyPeripheralManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 50DC9AD81EAF3E610099EAD8 /* BabyPeripheralManager.m */; };
+		50DC9AE51EAF3E610099EAD8 /* BabyRhythm.m in Sources */ = {isa = PBXBuildFile; fileRef = 50DC9ADA1EAF3E610099EAD8 /* BabyRhythm.m */; };
+		50DC9AE61EAF3E610099EAD8 /* BabySpeaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 50DC9ADC1EAF3E610099EAD8 /* BabySpeaker.m */; };
+		50DC9AE71EAF3E610099EAD8 /* BabyToy.m in Sources */ = {isa = PBXBuildFile; fileRef = 50DC9ADE1EAF3E610099EAD8 /* BabyToy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5025A6B71EB078990099685A /* PeripheralInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PeripheralInfo.h; sourceTree = "<group>"; };
+		5025A6B81EB078990099685A /* PeripheralInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PeripheralInfo.m; sourceTree = "<group>"; };
+		50DC9AAA1EAF28C00099EAD8 /* BuickWifiConfig.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BuickWifiConfig.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		50DC9AAE1EAF28C00099EAD8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		50DC9AB01EAF28C00099EAD8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		50DC9AB11EAF28C00099EAD8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		50DC9AB31EAF28C00099EAD8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		50DC9AB41EAF28C00099EAD8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		50DC9AB91EAF28C00099EAD8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		50DC9ABC1EAF28C00099EAD8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		50DC9ABE1EAF28C00099EAD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50DC9AC41EAF2EE00099EAD8 /* UIView+YYAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+YYAdd.h"; sourceTree = "<group>"; };
+		50DC9AC51EAF2EE00099EAD8 /* UIView+YYAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+YYAdd.m"; sourceTree = "<group>"; };
+		50DC9AC81EAF2F1F0099EAD8 /* YYKitMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYKitMacro.h; sourceTree = "<group>"; };
+		50DC9AC91EAF3A350099EAD8 /* Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Helper.h; sourceTree = "<group>"; };
+		50DC9ACA1EAF3A350099EAD8 /* Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Helper.m; sourceTree = "<group>"; };
+		50DC9ACD1EAF3E610099EAD8 /* BabyBluetooth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BabyBluetooth.h; sourceTree = "<group>"; };
+		50DC9ACE1EAF3E610099EAD8 /* BabyBluetooth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BabyBluetooth.m; sourceTree = "<group>"; };
+		50DC9ACF1EAF3E610099EAD8 /* BabyCallback.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BabyCallback.h; sourceTree = "<group>"; };
+		50DC9AD01EAF3E610099EAD8 /* BabyCallback.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BabyCallback.m; sourceTree = "<group>"; };
+		50DC9AD11EAF3E610099EAD8 /* BabyCentralManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BabyCentralManager.h; sourceTree = "<group>"; };
+		50DC9AD21EAF3E610099EAD8 /* BabyCentralManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BabyCentralManager.m; sourceTree = "<group>"; };
+		50DC9AD31EAF3E610099EAD8 /* BabyDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BabyDefine.h; sourceTree = "<group>"; };
+		50DC9AD41EAF3E610099EAD8 /* BabyDefine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BabyDefine.m; sourceTree = "<group>"; };
+		50DC9AD51EAF3E610099EAD8 /* BabyOptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BabyOptions.h; sourceTree = "<group>"; };
+		50DC9AD61EAF3E610099EAD8 /* BabyOptions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BabyOptions.m; sourceTree = "<group>"; };
+		50DC9AD71EAF3E610099EAD8 /* BabyPeripheralManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BabyPeripheralManager.h; sourceTree = "<group>"; };
+		50DC9AD81EAF3E610099EAD8 /* BabyPeripheralManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BabyPeripheralManager.m; sourceTree = "<group>"; };
+		50DC9AD91EAF3E610099EAD8 /* BabyRhythm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BabyRhythm.h; sourceTree = "<group>"; };
+		50DC9ADA1EAF3E610099EAD8 /* BabyRhythm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BabyRhythm.m; sourceTree = "<group>"; };
+		50DC9ADB1EAF3E610099EAD8 /* BabySpeaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BabySpeaker.h; sourceTree = "<group>"; };
+		50DC9ADC1EAF3E610099EAD8 /* BabySpeaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BabySpeaker.m; sourceTree = "<group>"; };
+		50DC9ADD1EAF3E610099EAD8 /* BabyToy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BabyToy.h; sourceTree = "<group>"; };
+		50DC9ADE1EAF3E610099EAD8 /* BabyToy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BabyToy.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		50DC9AA71EAF28C00099EAD8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5025A6B61EB0787E0099685A /* Baby */ = {
+			isa = PBXGroup;
+			children = (
+				5025A6B71EB078990099685A /* PeripheralInfo.h */,
+				5025A6B81EB078990099685A /* PeripheralInfo.m */,
+				50DC9ACD1EAF3E610099EAD8 /* BabyBluetooth.h */,
+				50DC9ACE1EAF3E610099EAD8 /* BabyBluetooth.m */,
+				50DC9ACF1EAF3E610099EAD8 /* BabyCallback.h */,
+				50DC9AD01EAF3E610099EAD8 /* BabyCallback.m */,
+				50DC9AD11EAF3E610099EAD8 /* BabyCentralManager.h */,
+				50DC9AD21EAF3E610099EAD8 /* BabyCentralManager.m */,
+				50DC9AD31EAF3E610099EAD8 /* BabyDefine.h */,
+				50DC9AD41EAF3E610099EAD8 /* BabyDefine.m */,
+				50DC9AD51EAF3E610099EAD8 /* BabyOptions.h */,
+				50DC9AD61EAF3E610099EAD8 /* BabyOptions.m */,
+				50DC9AD71EAF3E610099EAD8 /* BabyPeripheralManager.h */,
+				50DC9AD81EAF3E610099EAD8 /* BabyPeripheralManager.m */,
+				50DC9AD91EAF3E610099EAD8 /* BabyRhythm.h */,
+				50DC9ADA1EAF3E610099EAD8 /* BabyRhythm.m */,
+				50DC9ADB1EAF3E610099EAD8 /* BabySpeaker.h */,
+				50DC9ADC1EAF3E610099EAD8 /* BabySpeaker.m */,
+				50DC9ADD1EAF3E610099EAD8 /* BabyToy.h */,
+				50DC9ADE1EAF3E610099EAD8 /* BabyToy.m */,
+			);
+			name = Baby;
+			sourceTree = "<group>";
+		};
+		50DC9AA11EAF28C00099EAD8 = {
+			isa = PBXGroup;
+			children = (
+				50DC9AAC1EAF28C00099EAD8 /* BuickWifiConfig */,
+				50DC9AAB1EAF28C00099EAD8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		50DC9AAB1EAF28C00099EAD8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				50DC9AAA1EAF28C00099EAD8 /* BuickWifiConfig.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		50DC9AAC1EAF28C00099EAD8 /* BuickWifiConfig */ = {
+			isa = PBXGroup;
+			children = (
+				50DC9ACC1EAF3DED0099EAD8 /* Bluetooth */,
+				50DC9AC71EAF2EEC0099EAD8 /* Base */,
+				50DC9AB01EAF28C00099EAD8 /* AppDelegate.h */,
+				50DC9AB11EAF28C00099EAD8 /* AppDelegate.m */,
+				50DC9AB31EAF28C00099EAD8 /* ViewController.h */,
+				50DC9AB41EAF28C00099EAD8 /* ViewController.m */,
+				50DC9AB91EAF28C00099EAD8 /* Assets.xcassets */,
+				50DC9ABB1EAF28C00099EAD8 /* LaunchScreen.storyboard */,
+				50DC9ABE1EAF28C00099EAD8 /* Info.plist */,
+				50DC9AAD1EAF28C00099EAD8 /* Supporting Files */,
+			);
+			path = BuickWifiConfig;
+			sourceTree = "<group>";
+		};
+		50DC9AAD1EAF28C00099EAD8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				50DC9AAE1EAF28C00099EAD8 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		50DC9AC71EAF2EEC0099EAD8 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				50DC9AC81EAF2F1F0099EAD8 /* YYKitMacro.h */,
+				50DC9AC41EAF2EE00099EAD8 /* UIView+YYAdd.h */,
+				50DC9AC51EAF2EE00099EAD8 /* UIView+YYAdd.m */,
+				50DC9AC91EAF3A350099EAD8 /* Helper.h */,
+				50DC9ACA1EAF3A350099EAD8 /* Helper.m */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		50DC9ACC1EAF3DED0099EAD8 /* Bluetooth */ = {
+			isa = PBXGroup;
+			children = (
+				5025A6B61EB0787E0099685A /* Baby */,
+			);
+			name = Bluetooth;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		50DC9AA91EAF28C00099EAD8 /* BuickWifiConfig */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50DC9AC11EAF28C00099EAD8 /* Build configuration list for PBXNativeTarget "BuickWifiConfig" */;
+			buildPhases = (
+				50DC9AA61EAF28C00099EAD8 /* Sources */,
+				50DC9AA71EAF28C00099EAD8 /* Frameworks */,
+				50DC9AA81EAF28C00099EAD8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BuickWifiConfig;
+			productName = BuickWifiConfig;
+			productReference = 50DC9AAA1EAF28C00099EAD8 /* BuickWifiConfig.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		50DC9AA21EAF28C00099EAD8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = qunar;
+				TargetAttributes = {
+					50DC9AA91EAF28C00099EAD8 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = YXRD5GWEFF;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 50DC9AA51EAF28C00099EAD8 /* Build configuration list for PBXProject "BuickWifiConfig" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 50DC9AA11EAF28C00099EAD8;
+			productRefGroup = 50DC9AAB1EAF28C00099EAD8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				50DC9AA91EAF28C00099EAD8 /* BuickWifiConfig */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		50DC9AA81EAF28C00099EAD8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50DC9ABD1EAF28C00099EAD8 /* LaunchScreen.storyboard in Resources */,
+				50DC9ABA1EAF28C00099EAD8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		50DC9AA61EAF28C00099EAD8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50DC9AE41EAF3E610099EAD8 /* BabyPeripheralManager.m in Sources */,
+				50DC9AE61EAF3E610099EAD8 /* BabySpeaker.m in Sources */,
+				50DC9AE71EAF3E610099EAD8 /* BabyToy.m in Sources */,
+				50DC9AE51EAF3E610099EAD8 /* BabyRhythm.m in Sources */,
+				50DC9AE31EAF3E610099EAD8 /* BabyOptions.m in Sources */,
+				50DC9ADF1EAF3E610099EAD8 /* BabyBluetooth.m in Sources */,
+				50DC9AE11EAF3E610099EAD8 /* BabyCentralManager.m in Sources */,
+				50DC9AC61EAF2EE00099EAD8 /* UIView+YYAdd.m in Sources */,
+				50DC9AE21EAF3E610099EAD8 /* BabyDefine.m in Sources */,
+				50DC9AB51EAF28C00099EAD8 /* ViewController.m in Sources */,
+				50DC9AB21EAF28C00099EAD8 /* AppDelegate.m in Sources */,
+				50DC9AAF1EAF28C00099EAD8 /* main.m in Sources */,
+				50DC9ACB1EAF3A350099EAD8 /* Helper.m in Sources */,
+				5025A6B91EB078990099685A /* PeripheralInfo.m in Sources */,
+				50DC9AE01EAF3E610099EAD8 /* BabyCallback.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		50DC9ABB1EAF28C00099EAD8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50DC9ABC1EAF28C00099EAD8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		50DC9ABF1EAF28C00099EAD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		50DC9AC01EAF28C00099EAD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		50DC9AC21EAF28C00099EAD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = YXRD5GWEFF;
+				INFOPLIST_FILE = BuickWifiConfig/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qunar.yxl.BuickWifiConfig;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		50DC9AC31EAF28C00099EAD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = YXRD5GWEFF;
+				INFOPLIST_FILE = BuickWifiConfig/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qunar.yxl.BuickWifiConfig;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		50DC9AA51EAF28C00099EAD8 /* Build configuration list for PBXProject "BuickWifiConfig" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50DC9ABF1EAF28C00099EAD8 /* Debug */,
+				50DC9AC01EAF28C00099EAD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50DC9AC11EAF28C00099EAD8 /* Build configuration list for PBXNativeTarget "BuickWifiConfig" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50DC9AC21EAF28C00099EAD8 /* Debug */,
+				50DC9AC31EAF28C00099EAD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 50DC9AA21EAF28C00099EAD8 /* Project object */;
+}
